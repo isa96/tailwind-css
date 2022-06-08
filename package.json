@@ -1,0 +1,15 @@
+{
+  "name": "belajar-tailwind-css",
+  "version": "1.0.0",
+  "description": "Belajar Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Izzan Silmi Aziz",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
